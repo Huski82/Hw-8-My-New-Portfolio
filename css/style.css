@@ -1,0 +1,210 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+ nav ul a,
+ nav {
+   color: rgb(104, 12, 12);
+ }
+ 
+ a:link {
+   color: #290406;
+ }
+ 
+ a:visited {
+   color: #4f13af;
+ }
+ 
+ .brand-logo a:link{
+   color:#ffffff;
+ }
+ 
+ 
+ a.brand-logo:visited{
+   color:#ffffff;
+ }
+ 
+ .brand-logo {
+   background-color: #4f13af;
+   color: white;
+   
+ }
+ #logo-container {
+   padding-left: 10px;
+   padding-right: 10px;
+   
+ }
+ p {
+   line-height: 2rem;
+ }
+ .sidenav-trigger {
+   color: #4f13af;
+ }
+ .parallax-container {
+   min-height: 380px;
+   line-height: 0;
+   height: auto;
+   color: rgba(255, 255, 255, 0.9);
+ }
+   .parallax-container .section {
+     width: 100%;
+   }
+ 
+ 
+ .myDiv {
+   position: relative;
+   z-index: 1;
+ 
+ }
+ 
+ .myDiv:before {
+   content: "";
+   position: absolute;
+   z-index: -1;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background: url(../assets/images/) center center;
+   background-repeat: no-repeat;
+   opacity: .4;
+ }
+ 
+ #op-para {
+   opacity: .4;
+ }
+ 
+   .icon-block {
+     padding: 0 15px;
+     padding-top: 10px;
+   }
+   .icon-block .material-icons {
+     font-size: inherit;
+   }
+ 
+   footer.page-footer {
+     margin: 0;
+   }
+ 
+   .intro {
+     margin-left: 50%;
+     width: 100%;
+     margin-top: 40%;
+ 
+   }
+ 
+   .about {
+     color: black;
+     text-align: start;
+     /* margin: 10px; */
+       /* text-indent: 50px; */
+       padding-bottom: 15px;
+ 
+   }
+ 
+   /* .about-card {
+     width: 90%;
+   } */
+ 
+   #about-img {
+     /* padding: 10px; */
+     width: 250px;
+     height: auto;
+     float: left; 
+     margin: 20px;
+ 
+   }
+ 
+   #about-title {
+     text-align: left;
+   }
+ 
+   .main {
+     margin-left: 10px;
+     margin-right: 10px;
+   }
+   .pcard {
+     font-size: 17px;
+   }
+ 
+   /* #download-button {
+     margin-bottom: 5%;
+   }
+ 
+   .header {
+     font-weight: bold;
+   }
+ 
+   h5 {
+     font-weight: bold;
+   } */
+ 
+   #tab1, #tab2, #tab3 {
+     height: 350px;
+   }
+ 
+   .about-img {
+     height: 50%;
+     width: auto;
+   }
+ 
+ 
+   /* Media Queries */
+ 
+ @media only screen and (max-width : 992px) {
+   .parallax-container .section {
+     position: absolute;
+     top: 40%;
+   }
+   #index-banner .section {
+     top: 10%;
+   }
+ }
+ @media only screen and (max-width : 600px) {
+   #index-banner .section {
+     top: 0;
+   }
+ }
+ 
+ .icon-block {
+   padding: 0 15px;
+   padding-top: 10px;
+ }
+ .icon-block .material-icons {
+   font-size: inherit;
+ }
+ 
+ footer.page-footer {
+   margin: 0;
+ }
+ 
+ .intro {
+   margin-left: 50%;
+   width: 100%;
+   margin-top: 40%;
+ 
+ }
+ 
+ .pcard {
+   font-size: 17px;
+ }
+ 
+ #download-button {
+   margin-bottom: 5%;
+ /* }
+ 
+ .header {
+   font-weight: bold;
+ }
+ 
+ h5 {
+   font-weight: bold;
+ }
+ 
+ #tab1, #tab2, #tab3 {
+   height: 350px;
+ } */
+ 
